@@ -45,7 +45,6 @@ what to bring:
 - Maven 3.0+
 - text editor(IDEA, Sublime, Notepad++, UltraEdit...)
 - advice to do sanity check (compile...)
-
 - test internet access (do sanity check in class room => internet)
 
 what to show:
