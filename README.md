@@ -1,4 +1,4 @@
-intro, history, why, how to use in UBS(our env) ? interact with crowd, who has experience ?
+intro, history, why, how to use in the company (our env) ? interact with crowd, who has experience ?
 
 14:30 (0:10) introduction
 14:40 (1:20) history, idea and demos:
@@ -39,7 +39,7 @@ Agenda :
 
 preconditions:
 what to bring:
-- USB notebook with UBS network or private notebook with wireless internet access
+- The company notebook with the company network or private notebook with wireless internet access
 - power supply for notebook
 - JDK 6+
 - Maven 3.0+
