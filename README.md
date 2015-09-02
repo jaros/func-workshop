@@ -48,7 +48,7 @@ what to bring:
 - test internet access (do sanity check in class room => internet)
 
 what to show:
-...
+to use [groovy programming language](http://www.groovy-lang.org/)
 
 
 
