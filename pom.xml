@@ -36,6 +36,9 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <verbosity>INFO</verbosity>
+                </configuration>
             </plugin>
         </plugins>
     </build>
