@@ -50,6 +50,7 @@ what to bring:
 what to show:
 to use [groovy programming language](http://www.groovy-lang.org/)
 
-
+Test setup with:
+> mvn gplus:execute
 
 possibility to have 2 sessions
