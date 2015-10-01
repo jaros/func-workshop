@@ -10,8 +10,9 @@
 
     <properties>
         <gmavenVersion>1.5</gmavenVersion>
-        <groovyVersion>2.4.4</groovyVersion>
+        <groovyVersion>2.4.5</groovyVersion>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
@@ -38,9 +39,11 @@
                 </executions>
                 <configuration>
                     <verbosity>INFO</verbosity>
+                    <scripts>
+                        <script>file:///${project.basedir}/script.groovy</script>
+                    </scripts>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
 </project>
