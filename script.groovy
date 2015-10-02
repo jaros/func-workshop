@@ -1,1 +1,3 @@
-println 'Hello Groovy World!'
+println ''
+println '*** Workshop setup is OK ***'
+println ''
