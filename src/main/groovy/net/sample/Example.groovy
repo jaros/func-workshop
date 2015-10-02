@@ -8,5 +8,6 @@ class Example {
 
     def show() {
         println 'Hello World'
+        return 2
     }
 }
