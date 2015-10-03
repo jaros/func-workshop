@@ -8,8 +8,14 @@ class Filter {
 
         List<Integer> input = new ArrayList<>(Arrays.asList(-3, -2, -1, 0, 1, 2, 3));
 
-
-        println input
+        // filter only even number
+        List<Integer> result = new ArrayList<>();
+        for (Integer number : input) {
+            if (number %2 == 0) {
+                result.add(number);
+            }
+        }
+        println result;
     }
 
 }
