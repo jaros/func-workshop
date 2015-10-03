@@ -15,7 +15,7 @@ class Filter {
 
     private static List<Integer> filterEven(List<Integer> input) {
         List<Integer> result = new ArrayList<>()
-        for (Integer number : input) {
+        input.each { number ->
             if (number % 2 == 0) {
                 result.add(number)
             }
