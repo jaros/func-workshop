@@ -9,9 +9,8 @@ public class Map {
 
         def result = [];
         for (String name : personNames) {
-            String[] firstLastName = name.split(",")
-
-            result.add(new Person(firstName: firstLastName[0], lastName: firstLastName[1]))
+            def (first, last) = name.tokenize(',')
+            result.add(new Person(firstName: first, lastName: last))
         }
 
         println(result)
