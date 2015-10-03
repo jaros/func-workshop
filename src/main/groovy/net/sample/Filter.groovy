@@ -1,7 +1,7 @@
 package net.sample
 
 
-class Filter {
+public class Filter {
 
 
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ class Filter {
         println result
     }
 
-    private static List<Integer> filterEven(List<Integer> input) {
+    private static def filterEven(def input) {
         input.grep { it % 2 == 0 }
     }
 
