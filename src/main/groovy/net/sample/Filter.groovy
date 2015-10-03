@@ -8,9 +8,7 @@ class Filter {
 
         def input = [-3, -2, -1, 0, 1, 2, 3]
 
-
-        List<Integer> result = input.grep { it % 2 == 0 }
-        println result
+        println input.grep { it % 2 == 0 }
     }
 
 
