@@ -14,7 +14,7 @@ class Filter {
     }
 
     private static List<Integer> filterEven(List<Integer> input) {
-        return input.grep { it % 2 == 0 }
+        input.grep { it % 2 == 0 }
     }
 
 }
