@@ -1,10 +1,10 @@
 package net.sample
 
 
-public class Filter {
+class Filter {
 
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         def input = [-3, -2, -1, 0, 1, 2, 3]
 
