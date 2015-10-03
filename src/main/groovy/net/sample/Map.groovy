@@ -11,13 +11,10 @@ public class Map {
         for (String name : personNames) {
             String[] firstLastName = name.split(",")
 
-            Person person = new Person()
-            person.firstName = firstLastName[0]
-            person.lastName = firstLastName[1]
-            result.add(person)
+            result.add(new Person(firstName: firstLastName[0], lastName: firstLastName[1]))
         }
 
-        System.out.println(result)
+        println(result)
     }
 
 }
