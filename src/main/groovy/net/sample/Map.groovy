@@ -3,8 +3,8 @@ package net.sample
 
 def personNames =["John,Smith", "Bob,Marley", "John,Lennon"]
 
-def result = personNames.collect {name ->
-    def (first, last) = name.tokenize(',')
+def result = personNames.collect {
+    def (first, last) = it.tokenize(',')
     new Person(firstName: first, lastName: last)
 }
 
