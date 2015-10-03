@@ -2,10 +2,7 @@ package net.sample
 
 
 def numbers = [3, 7, 5, 5, 100]
-int sum = 0
 
-for (Integer num : numbers) {
-    sum = sum + num
-}
+int sum = numbers.inject(0, { a, b -> a + b })
 
 println sum
