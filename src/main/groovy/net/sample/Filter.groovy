@@ -9,12 +9,9 @@ class Filter {
         def input = [-3, -2, -1, 0, 1, 2, 3]
 
 
-        List<Integer> result = filterEven(input)
+        List<Integer> result = input.grep { it % 2 == 0 }
         println result
     }
 
-    private static filterEven(input) {
-        input.grep { it % 2 == 0 }
-    }
 
 }
