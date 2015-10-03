@@ -7,10 +7,9 @@ public class Map {
 
         def personNames =["John,Smith", "Bob,Marley", "John,Lennon"]
 
-        def result = [];
-        for (String name : personNames) {
+        def result = personNames.collect {name ->
             def (first, last) = name.tokenize(',')
-            result.add(new Person(firstName: first, lastName: last))
+            new Person(firstName: first, lastName: last)
         }
 
         println(result)
