@@ -5,16 +5,16 @@ public class Map {
 
     public static void main(String[] args) {
 
-        def personNames =["John,Smith", "Bob,Marley", "John,Lennon"];
+        def personNames =["John,Smith", "Bob,Marley", "John,Lennon"]
 
         def result = [];
         for (String name : personNames) {
-            String[] firstLastName = name.split(",");
+            String[] firstLastName = name.split(",")
 
-            Person person = new Person();
-            person.firstName = firstLastName[0];
-            person.lastName = firstLastName[1];
-            result.add(person);
+            Person person = new Person()
+            person.firstName = firstLastName[0]
+            person.lastName = firstLastName[1]
+            result.add(person)
         }
 
         System.out.println(result)
@@ -23,11 +23,11 @@ public class Map {
 }
 
 class Person {
-    String firstName;
-    String lastName;
+    String firstName
+    String lastName
 
     @Override
     String toString() {
-        return firstName + " " + lastName
+        firstName + " " + lastName
     }
 }
