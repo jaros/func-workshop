@@ -5,9 +5,9 @@ public class Map {
 
     public static void main(String[] args) {
 
-        def personNames = Arrays.asList("John,Smith", "Bob,Marley", "John,Lennon")
+        def personNames =["John,Smith", "Bob,Marley", "John,Lennon"];
 
-        def result = new ArrayList<>();
+        def result = [];
         for (String name : personNames) {
             String[] firstLastName = name.split(",");
 
