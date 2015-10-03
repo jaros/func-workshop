@@ -6,14 +6,14 @@ class Filter {
 
     public static void main(String[] args) {
 
-        List<Integer> input = [-3, -2, -1, 0, 1, 2, 3]
+        def input = [-3, -2, -1, 0, 1, 2, 3]
 
 
-        ArrayList<Integer> result = filterEven(input)
+        List<Integer> result = filterEven(input)
         println result
     }
 
-    private static ArrayList<Integer> filterEven(List<Integer> input) {
+    private static List<Integer> filterEven(List<Integer> input) {
         List<Integer> result = new ArrayList<>()
         for (Integer number : input) {
             if (number % 2 == 0) {
