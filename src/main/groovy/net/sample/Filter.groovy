@@ -13,7 +13,7 @@ public class Filter {
         println result
     }
 
-    private static def filterEven(def input) {
+    private static filterEven(input) {
         input.grep { it % 2 == 0 }
     }
 
