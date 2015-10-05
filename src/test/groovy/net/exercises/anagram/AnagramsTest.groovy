@@ -2,8 +2,7 @@ package net.exercises.anagram
 
 import org.junit.Test
 
-import static net.exercises.anagram.Anagrams.sentenceOccurrences
-import static net.exercises.anagram.Anagrams.wordOccurrences
+import static net.exercises.anagram.Anagrams.*
 import static net.exercises.anagram.Occurrence.occurrence
 
 class AnagramsTest {
@@ -38,4 +37,14 @@ class AnagramsTest {
         assert sentenceOccurrences(["abcd", "abe"]) == [occurrence('a', 2), occurrence('b', 2),
                                                         occurrence('c', 1), occurrence('d', 1), occurrence('e', 1)]
     }
+
+    @Test
+    void testDictionaryByOccurrencesGet() {
+        assert dictionaryByOccurrences.get([occurrence('a', 1), occurrence('e', 1),
+                                            occurrence('t', 1)]) == ["ate", "eat", "tea"]
+        assert dictionaryByOccurrences.get([occurrence('a', 1), occurrence('g', 1),
+                                            occurrence('o', 1)]) == ["ago", "Goa"]
+        assert dictionaryByOccurrences.get([occurrence('a', 2), occurrence('b', 2)]) == ["Abba"]
+    }
+
 }
