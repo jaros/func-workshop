@@ -16,4 +16,10 @@ class Anagrams {
         []
     }
 
+    /** Converts a sentence into its character occurrence list. */
+    static List<Occurrence> sentenceOccurrences(List<String> sentence) {
+        []
+    }
+
+
 }
