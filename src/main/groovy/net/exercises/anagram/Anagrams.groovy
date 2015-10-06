@@ -38,4 +38,9 @@ class Anagrams {
     @Lazy
     static Map<List<Occurrence>, List<String>> dictionaryByOccurrences = [:]
 
+
+    /** Returns all the anagrams of a given word. */
+    static List<String> wordAnagrams(String word) {
+        []
+    }
 }

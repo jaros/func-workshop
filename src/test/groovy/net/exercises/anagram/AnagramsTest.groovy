@@ -47,4 +47,14 @@ class AnagramsTest {
         assert dictionaryByOccurrences.get([occurrence('a', 2), occurrence('b', 2)]) == ["Abba"]
     }
 
+    @Test
+    void wordAnagrams_married() {
+        assert wordAnagrams("married") == ["admirer", "married"]
+    }
+
+    @Test
+    void wordAnagrams_player() {
+        assert wordAnagrams("player") == ["parley", "pearly", "player", "replay"]
+    }
+
 }
