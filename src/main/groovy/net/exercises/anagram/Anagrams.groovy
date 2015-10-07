@@ -1,21 +1,19 @@
 package net.exercises.anagram
 
-import static net.exercises.anagram.Commons.loadDictionary
-
 class Anagrams {
 
-/** Converts the word into its character occurrences list.
- *
- *  Note: the uppercase and lowercase version of the character are treated as the
- *  same character, and are represented as a lowercase character in the occurrence list.
- */
+    /** Converts the word into its character occurrences list.
+     *
+     *  Note: the uppercase and lowercase version of the character are treated as the
+     *  same character, and are represented as a lowercase character in the occurrence list.
+     */
     static List<List> wordOccurrences(String word) {
         []
     }
 
     /** Converts a sentence into its character occurrence list. */
     static List<List> sentenceOccurrences(List<String> sentence) {
-       []
+        []
     }
 
     /** The `dictionaryByOccurrences` is a `Map` from different occurrences to a sequence of all
@@ -24,19 +22,18 @@ class Anagrams {
      *
      *  For example, the word "eat" has the following character occurrence list:
      *
-     *     `List(('a', 1), ('e', 1), ('t', 1))`
+     *     `[['a', 1], ['e', 1], ['t', 1])`
      *
      *  Incidentally, so do the words "ate" and "tea".
      *
      *  This means that the `dictionaryByOccurrences` map will contain an entry:
      *
-     *    List(('a', 1), ('e', 1), ('t', 1)) -> Seq("ate", "eat", "tea")
+     *    [['a', 1], ['e', 1], ['t', 1]] -> ["ate", "eat", "tea"]
      *
      */
 
     @Lazy
     static Map<List<List>, List<String>> dictionaryByOccurrences = [:]
-
 
     /** Returns all the anagrams of a given word. */
     static List<String> wordAnagrams(String word) {
@@ -44,23 +41,23 @@ class Anagrams {
     }
 
     /** Returns the list of all subsets of the occurrence list.
-     *  This includes the occurrence itself, i.e. `List(('k', 1), ('o', 1))`
-     *  is a subset of `List(('k', 1), ('o', 1))`.
-     *  It also include the empty subset `List()`.
+     *  This includes the occurrence itself, i.e. `[['k', 1], ['o', 1]]`
+     *  is a subset of `[['k', 1], ['o', 1]]`.
+     *  It also include the empty subset `[]`.
      *
-     *  Example: the subsets of the occurrence list `List(('a', 2), ('b', 2))` are:
+     *  Example: the subsets of the occurrence list `[['a', 2], ['b', 2]]` are:
      *
-     *    List(
-     *      List(),
-     *      List(('a', 1)),
-     *      List(('a', 2)),
-     *      List(('b', 1)),
-     *      List(('a', 1), ('b', 1)),
-     *      List(('a', 2), ('b', 1)),
-     *      List(('b', 2)),
-     *      List(('a', 1), ('b', 2)),
-     *      List(('a', 2), ('b', 2))
-     *    )
+     *    [
+     *      [],
+     *      [['a', 1]],
+     *      [['a', 2]],
+     *      [['b', 1]],
+     *      [['a', 1], ['b', 1]],
+     *      [['a', 2), ['b', 1]],
+     *      [['b', 2]],
+     *      [['a', 1], ['b', 2]],
+     *      [['a', 2], ['b', 2]]
+     *    ]
      *
      *  Note that the order of the occurrence list subsets does not matter -- the subsets
      *  in the example above could have been displayed in some other order.
