@@ -43,4 +43,30 @@ class Anagrams {
     static List<String> wordAnagrams(String word) {
         []
     }
+
+    /** Returns the list of all subsets of the occurrence list.
+     *  This includes the occurrence itself, i.e. `List(('k', 1), ('o', 1))`
+     *  is a subset of `List(('k', 1), ('o', 1))`.
+     *  It also include the empty subset `List()`.
+     *
+     *  Example: the subsets of the occurrence list `List(('a', 2), ('b', 2))` are:
+     *
+     *    List(
+     *      List(),
+     *      List(('a', 1)),
+     *      List(('a', 2)),
+     *      List(('b', 1)),
+     *      List(('a', 1), ('b', 1)),
+     *      List(('a', 2), ('b', 1)),
+     *      List(('b', 2)),
+     *      List(('a', 1), ('b', 2)),
+     *      List(('a', 2), ('b', 2))
+     *    )
+     *
+     *  Note that the order of the occurrence list subsets does not matter -- the subsets
+     *  in the example above could have been displayed in some other order.
+     */
+    static List<List<List>> combinations(List<List> occurrences) {
+        []
+    }
 }

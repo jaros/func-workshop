@@ -48,13 +48,34 @@ class AnagramsTest {
     }
 
     @Test
-    void wordAnagrams_married() {
+    void testWordAnagrams_married() {
         assert wordAnagrams("married") == ["admirer", "married"]
     }
 
     @Test
-    void wordAnagrams_player() {
+    void testWordAnagrams_player() {
         assert wordAnagrams("player") == ["parley", "pearly", "player", "replay"]
+    }
+
+    @Test
+    void testCombinations_a_b() {
+        def input = [['a', 2], ['b', 2]]
+        def output = [
+                [],
+                [['a', 1]],
+                [['a', 2]],
+                [['b', 1]],
+                [['a', 1], ['b', 1]],
+                [['a', 2], ['b', 1]],
+                [['b', 2]],
+                [['a', 1], ['b', 2]],
+                [['a', 2], ['b', 2]]
+        ].sort()
+
+
+        def lists = combinations(input).sort()
+        println lists
+        assert lists == output
     }
 
 }
