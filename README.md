@@ -1,41 +1,17 @@
-intro, history, why, how to use in the company (our env) ? interact with crowd, who has experience ?
-
-14:30 (0:10) introduction
-14:40 (1:20) history, idea and demos:
-- programming paradigms
-- functional programming paradigm
-- functional and hybrid programming languages
- - LISP
- - Clojure
- - Haskel
- - Ruby
- - Groovy
- - Scala
- - JavaScript
-- functional approaches in Java
- - pure functions
- - callback functions
- - constants
- - immutability
-- functional solutions
- - transformation and filterring as loop
- - recursion as loop
- - composition
-
-16:00 (0:20) break
-
-16:20 (0:05) exercise assignment
-16:25 (0:20) exercise
-16:45 (0:20) exercise review
-17:05 (0:05) another exercise assingment
-17:10 (0:20) another exercise
-17:30 (0:20) another exercise review
-
-17:50 (0:10) final word
-18:00 end
-
-
-Agenda :
+# Agenda
+- 15:00 (0:10) Introduction
+- 15:10 (0:10) History and Evolution of Programming Languages
+- 15:20 (0:20) Basic of Functional Programming in Groovy
+- 15:40 (0:20) Programming Style from Java to Groovy
+- 16:00 (0:20) Break
+- 16:20 (0:05) Exercise Assignment
+- 16:25 (0:20) Exercise
+- 16:45 (0:20) Exercise Review
+- 17:05 (0:05) Another Exercise Assingment
+- 17:10 (0:20) Another Exercise
+- 17:30 (0:20) Another Exercise Review
+- 17:50 (0:10) Final Word
+- 18:00 End
 
 preconditions:
 what to bring:
