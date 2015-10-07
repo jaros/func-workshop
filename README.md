@@ -23,7 +23,7 @@
 - Test internet access (do sanity check in class room => internet)
 
 ## What to Show
-How to use [groovy programming language](http://www.groovy-lang.org/)
+How to use [Groovy Programming Language](http://www.groovy-lang.org/)
 
 ## Test setup
 > mvn gplus:execute
