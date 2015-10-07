@@ -1,4 +1,4 @@
-# Agenda
+## Agenda
 - 15:00 (0:10) Introduction
 - 15:10 (0:10) History and Evolution of Programming Languages
 - 15:20 (0:20) Basic of Functional Programming in Groovy
@@ -13,8 +13,7 @@
 - 17:50 (0:10) Final Word
 - 18:00 End
 
-preconditions:
-what to bring:
+## Preconditions
 - The company notebook with the company network or private notebook with wireless internet access
 - power supply for notebook
 - JDK 6+
@@ -23,10 +22,8 @@ what to bring:
 - advice to do sanity check (compile...)
 - test internet access (do sanity check in class room => internet)
 
-what to show:
-to use [groovy programming language](http://www.groovy-lang.org/)
+## What to Show
+How to use [groovy programming language](http://www.groovy-lang.org/)
 
-Test setup with:
+## Test setup
 > mvn gplus:execute
-
-possibility to have 2 sessions
