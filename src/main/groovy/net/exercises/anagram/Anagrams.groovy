@@ -1,7 +1,6 @@
 package net.exercises.anagram
 
 import static net.exercises.anagram.Commons.loadDictionary
-import static net.exercises.anagram.Occurrence.occurrence
 
 class Anagrams {
 
@@ -10,12 +9,12 @@ class Anagrams {
  *  Note: the uppercase and lowercase version of the character are treated as the
  *  same character, and are represented as a lowercase character in the occurrence list.
  */
-    static List<Occurrence> wordOccurrences(String word) {
+    static List<List> wordOccurrences(String word) {
         []
     }
 
     /** Converts a sentence into its character occurrence list. */
-    static List<Occurrence> sentenceOccurrences(List<String> sentence) {
+    static List<List> sentenceOccurrences(List<String> sentence) {
        []
     }
 
@@ -36,7 +35,7 @@ class Anagrams {
      */
 
     @Lazy
-    static Map<List<Occurrence>, List<String>> dictionaryByOccurrences = [:]
+    static Map<List<List>, List<String>> dictionaryByOccurrences = [:]
 
 
     /** Returns all the anagrams of a given word. */
