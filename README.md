@@ -7,11 +7,11 @@
 - 16:20 (0:05) Exercise Assignment
 - 16:25 (0:20) Exercise
 - 16:45 (0:20) Exercise Review
-- 17:05 (0:05) Another Exercise Assingment
+- 17:05 (0:05) Another Exercise Assignment
 - 17:10 (0:20) Another Exercise
 - 17:30 (0:20) Another Exercise Review
 - 17:50 (0:10) Final Word
-- 18:00 End
+- 18:00 Apéro -more fun
 
 ## Preconditions
 - The company notebook with the company network or private notebook with wireless internet access
